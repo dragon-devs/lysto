@@ -16,6 +16,7 @@ declare module "*.gif" {
 }
 declare module "*.bmp" {
   const value: any;
+
   export default value;
 }
 declare module "*.tiff" {
