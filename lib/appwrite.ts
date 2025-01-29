@@ -36,6 +36,10 @@ export async function login() {
 
     if (!secret || !userId) throw new Error("Failed to create a session!")
 
+    const session = await account.createSession(userId, secret);
+
+    if (!session) throw  new Error("Failed to create a session!");
+
     return true
   } catch (error) {
     console.error(error);
