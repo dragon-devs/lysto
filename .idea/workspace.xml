@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="fix: logged in issue fixed.">
-      <change afterPath="$PROJECT_DIR$/app/(root)/(tabs)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="chore(profile): update.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +16,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dragon-devs"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dragon-devs/lysto.git",
+    "accountId": "e0eeb918-0302-482e-9757-64c4dd3804a5"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2sKCTvJ67Ha06Wt10c3YbnZDMBr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "E:\\Projects\\WebstormProjects\\lysto\\node_modules\\typescript\\lib"
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "E:\\Projects\\WebstormProjects\\lysto\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="ReactDesignerToolWindowState">
@@ -30,14 +54,64 @@
       <map>
         <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
         <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="feat(tabs): added navigations tabs.">
+      <option name="closed" value="true" />
+      <created>1738194422786</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738194422786</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="feat(tabs): added navigations tabs." />
+      <created>1738194892688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738194892688</updated>
+      <workItem from="1738194894155" duration="6373000" />
+    </task>
+    <task id="LOCAL-00002" summary="chore(profile): update.">
+      <option name="closed" value="true" />
+      <created>1738348719333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738348719333</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: logged in issue fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: logged in issue fixed." />
+    <MESSAGE value="feat(tabs): added navigations tabs." />
+    <MESSAGE value="chore(profile): update." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(profile): update." />
   </component>
 </project>
