@@ -11,10 +11,6 @@ export default function Index() {
       }}
     >
       <Text className="text-3xl font-rubik text-blue-500">Welcome to Lysto</Text>
-      <Link href="/sign-in">Sign In</Link>
-      <Link href="/explore">Explore</Link>
-      <Link href="/profile">Profile</Link>
-      <Link href="/properties/1">Property</Link>
     </View>
   );
 }
