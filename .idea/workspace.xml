@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="chore(profile): update.">
+    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="chore(profile): with real user data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738194892688</updated>
-      <workItem from="1738194894155" duration="6373000" />
+      <workItem from="1738194894155" duration="10834000" />
     </task>
     <task id="LOCAL-00002" summary="chore(profile): update.">
       <option name="closed" value="true" />
@@ -91,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738348719333</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chore(profile): with real user data">
+      <option name="closed" value="true" />
+      <created>1738349192524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738349192524</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +120,7 @@
     <MESSAGE value="fix: logged in issue fixed." />
     <MESSAGE value="feat(tabs): added navigations tabs." />
     <MESSAGE value="chore(profile): update." />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(profile): update." />
+    <MESSAGE value="chore(profile): with real user data" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(profile): with real user data" />
   </component>
 </project>
