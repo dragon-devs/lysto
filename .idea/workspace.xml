@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="chore(profile): with real user data">
+    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="chore: adding home screen header">
+      <change afterPath="$PROJECT_DIR$/components/Cards.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Search.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,21 +21,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dragon-devs"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dragon-devs&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dragon-devs/lysto.git",
-    "accountId": "e0eeb918-0302-482e-9757-64c4dd3804a5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dragon-devs/lysto.git&quot;,
+    &quot;accountId&quot;: &quot;e0eeb918-0302-482e-9757-64c4dd3804a5&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2sKCTvJ67Ha06Wt10c3YbnZDMBr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,11 +45,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.start expo.executor": "Run",
+    "npm.start.executor": "Run",
     "ts.external.directory.path": "E:\\Projects\\WebstormProjects\\lysto\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -57,6 +65,15 @@
         <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -81,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738194892688</updated>
-      <workItem from="1738194894155" duration="10834000" />
+      <workItem from="1738194894155" duration="13262000" />
+      <workItem from="1738511936977" duration="3473000" />
     </task>
     <task id="LOCAL-00002" summary="chore(profile): update.">
       <option name="closed" value="true" />
@@ -99,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738349192524</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chore: adding home screen header">
+      <option name="closed" value="true" />
+      <created>1738435685172</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738435685172</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +147,7 @@
     <MESSAGE value="feat(tabs): added navigations tabs." />
     <MESSAGE value="chore(profile): update." />
     <MESSAGE value="chore(profile): with real user data" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(profile): with real user data" />
+    <MESSAGE value="chore: adding home screen header" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: adding home screen header" />
   </component>
 </project>
