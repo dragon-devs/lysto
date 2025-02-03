@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="feat(scrolling): enabled scrolling through nested flatlists">
+    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="feat(appwrite): setup database and collection in appwrite for the application.">
+      <change afterPath="$PROJECT_DIR$/lib/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/seed.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/appwrite.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/appwrite.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,7 @@
       <updated>1738194892688</updated>
       <workItem from="1738194894155" duration="13262000" />
       <workItem from="1738511936977" duration="5554000" />
-      <workItem from="1738578180349" duration="1992000" />
+      <workItem from="1738578180349" duration="3451000" />
     </task>
     <task id="LOCAL-00002" summary="chore(profile): update.">
       <option name="closed" value="true" />
@@ -146,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738517554035</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat(appwrite): setup database and collection in appwrite for the application.">
+      <option name="closed" value="true" />
+      <created>1738580370585</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738580370585</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +181,7 @@
     <MESSAGE value="feat(cards): made reusable cards components" />
     <MESSAGE value="feat(filters): added filters and also functional" />
     <MESSAGE value="feat(scrolling): enabled scrolling through nested flatlists" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(scrolling): enabled scrolling through nested flatlists" />
+    <MESSAGE value="feat(appwrite): setup database and collection in appwrite for the application." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(appwrite): setup database and collection in appwrite for the application." />
   </component>
 </project>
