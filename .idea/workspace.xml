@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="feat(appwrite): setup database and collection in appwrite for the application.">
-      <change afterPath="$PROJECT_DIR$/lib/data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/seed.ts" afterDir="false" />
+    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="feat(seeding): seed the appwrite database with dummay data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Filters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Filters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/appwrite.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/appwrite.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +99,7 @@
       <updated>1738194892688</updated>
       <workItem from="1738194894155" duration="13262000" />
       <workItem from="1738511936977" duration="5554000" />
-      <workItem from="1738578180349" duration="3451000" />
+      <workItem from="1738578180349" duration="7968000" />
     </task>
     <task id="LOCAL-00002" summary="chore(profile): update.">
       <option name="closed" value="true" />
@@ -155,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738580370585</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat(seeding): seed the appwrite database with dummay data">
+      <option name="closed" value="true" />
+      <created>1738582189642</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738582189642</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +192,7 @@
     <MESSAGE value="feat(filters): added filters and also functional" />
     <MESSAGE value="feat(scrolling): enabled scrolling through nested flatlists" />
     <MESSAGE value="feat(appwrite): setup database and collection in appwrite for the application." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(appwrite): setup database and collection in appwrite for the application." />
+    <MESSAGE value="feat(seeding): seed the appwrite database with dummay data" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(seeding): seed the appwrite database with dummay data" />
   </component>
 </project>

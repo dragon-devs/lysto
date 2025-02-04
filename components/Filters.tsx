@@ -1,6 +1,6 @@
-import {View, Text, ScrollView, TouchableOpacity} from 'react-native'
+import {ScrollView, Text, TouchableOpacity} from 'react-native'
 import React, {useState} from 'react'
-import {useLocalSearchParams, router} from "expo-router";
+import {router, useLocalSearchParams} from "expo-router";
 import {categories} from "@/constants/data";
 
 const Filters = () => {
