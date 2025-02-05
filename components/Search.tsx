@@ -13,6 +13,7 @@ const Search = () => {
     router.setParams({ query }), 500);
   const handleSearch = (query: string) => {
     setSearch(query);
+    debouncedSearch(query);
   }
   return (
     <View className="flex flex-row items-center justify-between w-full px-4 rounded-lg

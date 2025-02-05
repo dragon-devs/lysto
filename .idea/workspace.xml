@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="chore: cleaning">
+    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="feat(appwrite): setup for properties queries.">
+      <change afterPath="$PROJECT_DIR$/components/NoResults.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/appwrite.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/appwrite.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +100,7 @@
       <workItem from="1738194894155" duration="13262000" />
       <workItem from="1738511936977" duration="5554000" />
       <workItem from="1738578180349" duration="8596000" />
-      <workItem from="1738696672944" duration="2222000" />
+      <workItem from="1738696672944" duration="6137000" />
     </task>
     <task id="LOCAL-00002" summary="chore(profile): update.">
       <option name="closed" value="true" />
@@ -170,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738693863598</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat(appwrite): setup for properties queries.">
+      <option name="closed" value="true" />
+      <created>1738750551103</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738750551104</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +211,7 @@
     <MESSAGE value="feat(appwrite): setup database and collection in appwrite for the application." />
     <MESSAGE value="feat(seeding): seed the appwrite database with dummay data" />
     <MESSAGE value="chore: cleaning" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: cleaning" />
+    <MESSAGE value="feat(appwrite): setup for properties queries." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(appwrite): setup for properties queries." />
   </component>
 </project>

@@ -124,6 +124,7 @@ export async function getProperties({filter, query, limit}: {
     const response = await databases.listDocuments(
       config.databaseId!,
       config.propertiesCollectionId!,
+      buildQuery,
     );
 
     return response.documents;
