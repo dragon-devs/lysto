@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="feat(explore): implemented explore screen.">
-      <change afterPath="$PROJECT_DIR$/components/Comment.tsx" afterDir="false" />
+    <list default="true" id="10d0961b-b11c-4c29-8586-5e30fe650e8c" name="Changes" comment="feat(properties): added properties details + commments components.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/explore.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/explore.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/properties/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/properties/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/appwrite.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/appwrite.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +96,7 @@
       <workItem from="1738194894155" duration="13262000" />
       <workItem from="1738511936977" duration="5554000" />
       <workItem from="1738578180349" duration="8596000" />
-      <workItem from="1738696672944" duration="11670000" />
+      <workItem from="1738696672944" duration="11845000" />
     </task>
     <task id="LOCAL-00002" summary="chore(profile): update.">
       <option name="closed" value="true" />
@@ -198,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738862706553</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat(properties): added properties details + commments components.">
+      <option name="closed" value="true" />
+      <created>1738863364288</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738863364288</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +234,7 @@
     <MESSAGE value="feat(appwrite): setup for properties queries." />
     <MESSAGE value="feat: display real data from database + fixes" />
     <MESSAGE value="feat(explore): implemented explore screen." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(explore): implemented explore screen." />
+    <MESSAGE value="feat(properties): added properties details + commments components." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(properties): added properties details + commments components." />
   </component>
 </project>

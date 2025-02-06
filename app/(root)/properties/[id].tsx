@@ -56,7 +56,7 @@ const Property = () => {
             <View className="flex flex-row items-center w-full justify-between">
               <TouchableOpacity
                 onPress={() => router.back()}
-                className="flex flex-row bg-primary-200 rounded-full size-11 items-center justify-center"
+                className="flex flex-row bg-primary-100 rounded-full size-11 items-center justify-center"
               >
                 <Image source={icons.backArrow} className="size-5" />
               </TouchableOpacity>
@@ -114,7 +114,7 @@ const Property = () => {
             </Text>
           </View>
 
-          <View className="w-full border-t border-primary-200 pt-7 mt-5">
+          <View className="w-full border-t border-primary-100 pt-7 mt-5">
             <Text className="text-black-300 text-xl font-rubik-bold">
               Agent
             </Text>
@@ -254,7 +254,7 @@ const Property = () => {
         </View>
       </ScrollView>
 
-      <View className="absolute bg-white bottom-0 w-full rounded-t-2xl border-t border-r border-l border-primary-200 p-7">
+      <View className="absolute bg-white bottom-0 w-full rounded-t-2xl border-t border-r border-l border-primary-100 p-7">
         <View className="flex flex-row items-center justify-between gap-10">
           <View className="flex flex-col items-start">
             <Text className="text-black-200 text-xs font-rubik-medium">
