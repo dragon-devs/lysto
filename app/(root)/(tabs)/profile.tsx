@@ -38,11 +38,11 @@ const Profile = () => {
     <SafeAreaView className="h-full bg-white">
       <ScrollView
         showsVerticalScrollIndicator={false}
-        contentContainerClassName="pb-32 px-7"
+        contentContainerClassName="pb-32 px-5"
       >
         <View className="flex flex-row items-center justify-between mt-5">
           <Text className="text-xl font-rubik-bold">Profile</Text>
-          <Image source={icons.bell} className="size-5"/>
+          <Image source={icons.bell} className="w-6 h-6"/>
         </View>
         <View className="flex-row justify-center flex mt-5">
           <View className="flex flex-col items-center relative mt-5">
