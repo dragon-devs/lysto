@@ -42,7 +42,7 @@ export default function Explore() {
   return (
     <SafeAreaView className="bg-white h-full">
       <FlatList
-        data={properties}
+        data={properties || []}
         renderItem={({item}) => <Card item={item} onPress={() => handleCardPress(item.$id)} />}
         keyExtractor={(item) => item.$id}
         numColumns={2}
@@ -60,11 +60,11 @@ export default function Explore() {
             <View className="flex flex-row items-center justify-between mt-5">
               <TouchableOpacity
                 onPress={() => router.back()}
-                className="flex flex-row bg-primary-200 rounded-full size-11 items-center justify-center"
+                className="flex flex-row bg-primary-100 rounded-full size-11 items-center justify-center"
               >
                 <Image source={icons.backArrow} className="size-5" />
               </TouchableOpacity>
-              <Text className="text-base mr-2 text-center font-rubik-medium text-black-300">Search for Your Ideal Home</Text>
+              <Text className="text-base mr-2 text-center font-rubik-medium text-black-400">Search for Your Ideal Home</Text>
               <Image source={icons.bell} className="w-6 h-6" />
 
             </View>

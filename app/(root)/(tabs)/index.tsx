@@ -50,7 +50,7 @@ export default function Home() {
     <SafeAreaView className="bg-white h-full">
       {/*<Button title="seed" onPress={seed} />*/}
       <FlatList
-        data={properties}
+        data={properties || []}
         renderItem={({item}) => <Card item={item} onPress={() => handleCardPress(item.$id)} />}
         keyExtractor={(item) => item.$id}
         numColumns={2}
